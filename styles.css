@@ -1,0 +1,101 @@
+/* CSS */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.337); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none; /* Allows interaction with elements behind the overlay */
+}
+
+nav{
+    background-color: rgb(243, 243, 246); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#home:hover{
+    color: plum;
+}
+
+.container1{
+    max-height: 600px;
+}
+/* ///// */
+#container2{
+    background-color: rgba(255, 255, 255, 0.525);
+    /* height: 600px; */
+}
+
+#container3{
+    margin-top: 60px;
+    /* height: 600px; */
+}
+
+.text-responsive{
+    font-size: 20px;
+}
+
+#headertext{
+    font-size: 40px;
+}
+
+@media (max-width: 723px) {
+    .text-responsive {
+        font-size: 16px; /* Adjust the font size for smaller screens */
+    }
+    .image-responsive{
+        margin-top: 70px;
+    }
+    #headertext{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 443px) {
+    .text-responsive {
+        font-size: 12px; /* Adjust the font size for smaller screens */
+    }
+    #headertext{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 380px) {
+    .text-responsive {
+        font-size: 10px; /* Adjust the font size for smaller screens */
+    }
+    #headertext{
+        font-size: 20px;
+    }
+    .image-responsive{
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 380px) {
+    .text-responsive {
+        font-size: 10px; /* Adjust the font size for smaller screens */
+    }
+    #headertext{
+        font-size: 20px;
+        margin-top: 60px;
+    }
+    .image-responsive{
+        margin-top: 70px;
+    }
+}
+
+.hover:hover{
+    color: rgb(173, 30, 180);
+}
+
+.carousel{
+    max-height: 800px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
